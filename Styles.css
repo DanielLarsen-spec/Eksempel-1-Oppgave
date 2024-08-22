@@ -1,0 +1,59 @@
+.body {
+    margin-left: 20px;
+}
+
+
+
+.card {
+    width: 500px; ;
+    background-color: lightgray;
+    border: 1px solid darkgrey;
+    margin: 10px ;
+}
+.Innercard {
+padding: 10px;
+
+}
+.Header{
+color: white;
+text-align: center;
+font-size: x-large;
+padding: 1% 0;
+border: 1px solid gray ;
+user-select: none;
+}
+
+.green{
+    background-color: #3cba54
+}
+.blue{
+    background-color: #4885ed;
+}
+.red{
+    background-color:#db3236 ;
+}
+.yellow{
+    background-color:#f4c20d ;
+}
+.Black{
+    background-color: #36393f;
+}
+p {
+    padding-left: 10px;
+}
+
+.verticalLayout {
+display: flex;
+flex-direction:column;
+}
+
+.horisontalLayout{
+    display: flex;
+    flex-direction:row;
+}
+.gridLayout{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: auto;
+}
+
